@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css"
+      integrity="sha512-usVBAd66/NpVNfBge19gws2j6JZinnca12rAe2l+d+QkLU9fiG02O1X8Q6hepIpr/EYKZvKx/I9WsnujJuOmBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js"
+      integrity="sha512-a6ctI6w1kg3J4dSjknHj3aWLEbjitAXAjLDRUxo2wyYmDFRcz2RJuQr5M3Kt8O/TtUSp8n2rAyaXYy1sjoKmrQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Readium</title>
+  </head>
+  <nav id="navbar" class="navbar navbar-dark bg-1 shadow">
+    <div class="container">
+        <a href="/" class="text-decoration-none">
+            <span class="navbar-brand mb-0 h1"><i class="fas fa-book-reader"></i>&nbsp;Readium</span>
+          </a>
+    </div>
+  </nav>
+  <body class="bg-2">
+    <div class="container mt-5">
+      <div class="card content p-3 bg-3">
+        <img
+          src="./images/img.webp"
+          alt=""
+          class="img-fluid w-auto mt-3 rounded"
+          srcset=""
+        />
+        <h5 class="card-title fs-2 fw-bold">
+            How to Build Your Own Blockchain in NodeJS
+        </h5>
+        <div class="">
+          <i class="fas fa-user"></i>&nbsp;Admin &nbsp;&nbsp;<i
+            class="fas fa-calendar-alt"
+          ></i
+          >&nbsp;<span>Jun 8</span>
+          <span class="float-end">
+            3 min read
+          </span>
+        </div>
+
+        <div class="mt-3">
+          <span class="bg-primary text-white p-1 rounded">#blockchain</span>
+          <span class="bg-warning text-dark p-1 rounded">#node</span>
+          <span class="bg-info text-dark p-1 rounded">#cryptocurrency</span>
+        </div>
+
+        <div class="content mt-3 fs-5">
+          When we're trying to learn something new, it can oftentimes be
+          tempting to dive headfirst into documentation, articles, and
+          conceptual explanations. While all of that is certainly important,
+          programmers have a great tool in their arsenal for understanding
+          complex topics that they often take for granted. Building models for
+          different topics in code can help us understand how different pieces
+          of an idea fit together and operate in practice. In this tutorial,
+          I'll show you how to build a rudimentary blockchain with some
+          relatively simple Javascript. What is a Blockchain? It can be helpful
+          to think of blockchains as augmented linked lists, or arrays in which
+          each element points to the preceding array. Within each block
+          (equivalent to an element in an array) of the blockchain, there
+          contains at least the following: A timestamp of when the block was
+          added to the chain Some sort of relevant data. In the case of a
+          cryptocurrency, this data would store transactions, but blockchains
+          can be helpful in storing much more than just transactions for a
+          cryptocurrency The encrypted hash of the block that precedes it An
+          encrypted hash based on the data contained within the block(Including
+          the hash of the previous block) The key component that makes a
+          blockchain so powerful is that embedded in each block's hash is the
+          data of the previous block (stored through the previous block's hash).
+          This means that if you alter the data of a block, you will alter its
+          hash, and therefore invalidate the hashes of all future blocks.
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
